@@ -1,0 +1,8 @@
+Error while running model
+repast.simphony.scenario.ScenarioLoadException: Command line is missing required -pxml option
+	at repast.simphony.batch.InstanceRunner.configure(InstanceRunner.java:152)
+	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:214)
+Error while running model
+repast.simphony.scenario.ScenarioLoadException: Command line is missing required -pxml option
+	at repast.simphony.batch.InstanceRunner.configure(InstanceRunner.java:152)
+	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:214)
