@@ -1,8 +1,0 @@
-/bin/
-
-*.log
-/testbin/
-=======
-.DS_Store
-
-/.metadata/
