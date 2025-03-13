@@ -1,0 +1,29 @@
+Las simulaciones fueron realizadas en RepastSimphony-2.8 (2020-06)
+
+I)Para importar el proyecto en Repast:
+
+1-Seleccionar un workspace vacío
+2-Import projects...
+3-Git
+4-Projects from Git (with smart import)
+
+A-Si el repositorio ya esta clonado en la PC -> Existing local repository
+5- Add... -> Browse... -> Seleccionar Directorio donde fue clonado -> Marcar casilla del repositorio "endomembraneSystemTf" -> Finish -> Next
+
+B-Si no ha sido clonado -> Clone URI
+5- Copiar y pegar en URI: https://github.com/franconieto/endomembraneSystemTf.git -> Next -> Next -> Seleccionar un directorio donde será clonado el repositorio (puede ser el mismo directorio del workspace o distinto)
+
+6- Seleccionar casillas "Search for nested projects" y "Detect and configure project natures"
+En el cuadro de "Folder" solo marcar la casilla "endomembraneSystemTf\immunity" (en "Import as" tiene que figurar Eclipse project) -> Finish
+
+II)Para correr por primera vez el modelo:
+
+1-Ir a "Run Configurations" (botón Play verde en la barra de herramientas)
+2-Java Application -> immunity Model -> Run
+3-En la nueva ventana iniciar simulacion con botón Play azul
+
+III)Si marca algun error en las clases.java relacionado a la importación de librerias:
+
+1-Ir a Project -> Properties -> Java Build Path -> Libraries
+2-Hacer doble click en las librerias faltantes
+3-En el explorador buscar las librerias (se pueden encontrar en: dir-donde-se-colono-el-repo...\immunity\lib)
