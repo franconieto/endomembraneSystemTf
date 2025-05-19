@@ -352,7 +352,7 @@ public class Results {
 		HashMap<String, Double> solubleSecretion = EndoplasmicReticulum.getInstance().getSolubleRecycle();
 		HashMap<String, Double> membraneSecretion = EndoplasmicReticulum.getInstance().getMembraneRecycle();
 		HashMap<String, Double> solubleCell = Cell.getInstance().getSolubleCell();
-		System.out.println(solubleCell + " VEAMOS ANTES Y DESPUES" + Cell.getInstance().getSolubleCell());
+		//System.out.println(solubleCell + " VEAMOS ANTES Y DESPUES" + Cell.getInstance().getSolubleCell());
 		for (String sol : solubleRecycle.keySet()) {
 //			System.out.println(" soluble "+ sol);
 			double value = solubleRecycle.get(sol);

@@ -230,7 +230,7 @@ public class RecycleStep {
 			PlasmaMembrane.getInstance().getPlasmaMembraneTimeSeries().clear();
 			double plasmaMembrane = endosome.area + PlasmaMembrane.getInstance().getPlasmaMembraneArea();
 			PlasmaMembrane.getInstance().setPlasmaMembraneArea(plasmaMembrane);
-			System.out.println("RECYCLING OF EE  " + endosome.tickCount);
+			//System.out.println("RECYCLING OF EE  " + endosome.tickCount);
 
 //			to delete the recycled EE endosome.
 			Context<Object> context = ContextUtils.getContext(endosome);
@@ -273,7 +273,7 @@ public class RecycleStep {
 		grid = endosome.getGrid();
 		// If the line passes through two points P1=(x1,y1) and P2=(x2,y2) then
 		// the distance of (x0,y0) from the line is calculate from wiki
-		System.out.println("EEEEEEEEEEEEEEEE  " + endosome.area);
+		//System.out.println("EEEEEEEEEEEEEEEE  " + endosome.area);
 		NdPoint pt = space.getLocation(endosome);
 		double xpt = pt.getX();
 		double ypt = pt.getY();

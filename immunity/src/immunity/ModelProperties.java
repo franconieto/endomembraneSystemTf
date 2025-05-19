@@ -229,7 +229,7 @@ public class ModelProperties {
 			case "initERProperties": {				
 				for (int i = 1; i < b.length; i = i + 2) {
 				modelProperties.getInitERProperties().put(b[i], Double.parseDouble(b[i+1]));
-				System.out.println("QUE ES LO QUE NO ANDA!!!!!!!!!!! " + modelProperties.getInitERProperties());
+				//System.out.println("QUE ES LO QUE NO ANDA!!!!!!!!!!! " + modelProperties.getInitERProperties());
 				}	
 				break;
 			}
@@ -432,7 +432,7 @@ public class ModelProperties {
 					break;
 				}
 				default: {
-					System.out.println("no a valid entry");
+					//System.out.println("no a valid entry");
 				}
 				}
 				break;
@@ -447,7 +447,7 @@ public class ModelProperties {
 		}
 
 			default: {
-				System.out.println("no a valid entry");
+				//System.out.println("no a valid entry");
 			}
 			}
 
@@ -519,7 +519,7 @@ public class ModelProperties {
 						break;
 					}
 					default: {
-						System.out.println("no a valid entry");
+						//System.out.println("no a valid entry");
 					}
 					}
 					break;
@@ -527,7 +527,7 @@ public class ModelProperties {
 
 
 				default: {
-					System.out.println("no a valid entry");
+					//System.out.println("no a valid entry");
 				}
 
 				}

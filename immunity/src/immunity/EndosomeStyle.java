@@ -78,7 +78,7 @@ public class EndosomeStyle implements StyleOGL2D<Endosome> {
 //        	volume too large for the area.  Calculate a new volume that fit in a sphere of this area
         object.volume = Math.pow(object.area,3/2)/6/Math.pow(Math.PI, 1/2);
         Endosome.endosomeShape(object);
-		System.out.println("area "+ object.area +" volume "+object.volume);
+		//System.out.println("area "+ object.area +" volume "+object.volume);
         }
         if (a<=c){
         Shape ellypse = new Ellipse2D.Double(-c/2, -a/2, c, a);
@@ -86,7 +86,7 @@ public class EndosomeStyle implements StyleOGL2D<Endosome> {
         }
         else{
 //        	object.heading = -90;
-  		System.out.println(object.toString()+ "a  "+a+"  c  "+ c);
+  		//System.out.println(object.toString()+ "a  "+a+"  c  "+ c);
          Shape rec = new RoundRectangle2D.Double(-c/2, -a/2, c, a,  0, 0);
 //        arguments x, y, ancho, largo, corner angle (small sharp), side curvature (small, straight)
         shape = this.factory.createShape(rec);
@@ -129,7 +129,7 @@ public class EndosomeStyle implements StyleOGL2D<Endosome> {
 				//object.getGreen()*0.068*1E9/3;
 //		System.out.println("GREEN FUERA ESCALA "+green);
 		if (green>1) {
-		System.out.println("GREEN FUERA ESCALA "+green);
+		//System.out.println("GREEN FUERA ESCALA "+green);
 			green=1; 
 		}
 		double blue = object.getSolubleContent().getOrDefault("FeEn",0.0)*5;

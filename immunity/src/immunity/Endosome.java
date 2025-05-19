@@ -284,7 +284,7 @@ public class Endosome {
 ////			System.out.println("LONG LONG  c  a  " + cc +" " + aa);
 			if (end.a <1) {
 				end.a = 1;
-				System.out.println("PROBLEMA FORMA " + s +" "+v+"");
+				//System.out.println("PROBLEMA FORMA " + s +" "+v+"");
 			}
 //			end.a = aa;
 //			end.c = cc;

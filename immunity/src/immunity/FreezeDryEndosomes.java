@@ -116,7 +116,7 @@ public class FreezeDryEndosomes {
 					break;
 				}
 				default: {
-					System.out.println("no a valid entry");
+					//System.out.println("no a valid entry");
 				}
 				}
 				break;
@@ -152,7 +152,7 @@ public class FreezeDryEndosomes {
 					break;
 				}
 				default: {
-					System.out.println("no a valid entry");
+					//System.out.println("no a valid entry");
 				}
 				}
 				break;
@@ -190,12 +190,12 @@ public class FreezeDryEndosomes {
 						value.put(b[i], Double.parseDouble(b[i + 1]));
 					}
 					EndoplasmicReticulum.getInstance().getMembraneRecycle().putAll(value);
-					System.out.println("VALOR ERRRRRRRRRRRRR " + EndoplasmicReticulum.getInstance().getMembraneRecycle());
+					//System.out.println("VALOR ERRRRRRRRRRRRR " + EndoplasmicReticulum.getInstance().getMembraneRecycle());
 
 					break;
 				}
 				default: {
-					System.out.println("no a valid entry");
+				//	System.out.println("no a valid entry");
 				}
 				}
 				break;
@@ -270,13 +270,13 @@ public class FreezeDryEndosomes {
 					break;
 				}
 				default: {
-					System.out.println("no a valid entry");
+					//System.out.println("no a valid entry");
 				}
 				}
 				break;
 			}
 			default: {
-				System.out.println("no a valid entry");
+				//System.out.println("no a valid entry");
 			}
 			}
 
