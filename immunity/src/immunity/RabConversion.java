@@ -28,6 +28,7 @@ import org.COPASI.CTrajectoryMethod;
 import org.COPASI.CTrajectoryProblem;
 import org.COPASI.CTrajectoryTask;
 import org.COPASI.ReportItemVector;
+import org.COPASI.COPASIJNI;
 
 public class RabConversion {
 	private static RabConversion instance = null;
@@ -47,7 +48,7 @@ public class RabConversion {
 	}
 	
 	protected RabConversion(){
-		System.out.println("Instantiation Once");
+		System.out.println("Instantiation Once rab copasi");
 		
 		// to defeat instantiation
 		assert CCopasiRootContainer.getRoot() != null;

@@ -25,6 +25,7 @@ import org.COPASI.CTrajectoryMethod;
 import org.COPASI.CTrajectoryProblem;
 import org.COPASI.CTrajectoryTask;
 import org.COPASI.ReportItemVector;
+import org.COPASI.COPASIJNI;
 
 public class EndosomeCopasi {
 	private static EndosomeCopasi instance = null;
@@ -46,12 +47,13 @@ public class EndosomeCopasi {
 	
 	protected EndosomeCopasi() {
 
-		System.out.println("Instantiation Once " + ModelProperties.getInstance().getCopasiFiles().get("endosomeCopasi"));
+		System.out.println("Instantiation Once endosome copasi " + ModelProperties.getInstance().getCopasiFiles().get("endosomeCopasi"));
 		
 		// to defeat instantiation
 		assert CCopasiRootContainer.getRoot() != null;
+		
         // create a new datamodel
-		dataModel = CCopasiRootContainer.addDatamodel();
+		dataModel = CCopasiRootContainer.addDatamodel();  
         assert CCopasiRootContainer.getDatamodelList().size() == 1;
         
         String modelFileName = ModelProperties.getInstance().getCopasiFiles().get("endosomeCopasi");//"lipidMetabDiego.cps";

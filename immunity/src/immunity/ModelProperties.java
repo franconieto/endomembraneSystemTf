@@ -32,9 +32,11 @@ public class ModelProperties {
 		
 //		PARA BATCH USAR ESTO.  DE ESTE MODO SE PUEDEN BARRER VARIOS INPUTFILE CON DIFERENTES PROPIEDADES
 		Parameters parm = RunEnvironment.getInstance().getParameters();
+		
 		String inputFile =(String) parm.getValue("inputFile");
 		File file = new File (".//data//"+inputFile);
-
+		
+		
 		//		"inputIntrTransp3.csv"));
 		// PARA BATCH MODE.  LEE DE UN FOLDER DATA RELATIVO QUE SE GENERA AL CORRER EN BATCH 
 //				el folder se llama data y allí hay que meter todo lo que se lea, como el inputIntrTransp3.csv y los copasi que

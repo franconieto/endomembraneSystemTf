@@ -25,6 +25,7 @@ import org.COPASI.CTrajectoryMethod;
 import org.COPASI.CTrajectoryProblem;
 import org.COPASI.CTrajectoryTask;
 import org.COPASI.ReportItemVector;
+import org.COPASI.COPASIJNI;
 
 public class CellCopasi {
 	private static CellCopasi instance = null;
@@ -46,7 +47,7 @@ public class CellCopasi {
 	
 	protected CellCopasi() {
 
-		System.out.println("Instantiation Once");
+		System.out.println("Instantiation Once cell copasi " + ModelProperties.getInstance().getCopasiFiles().get("cellCopasi"));
 		
 		// to defeat instantiation
 		assert CCopasiRootContainer.getRoot() != null;

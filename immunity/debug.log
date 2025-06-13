@@ -1,0 +1,957 @@
+INFO  [Thread-1] 2025-05-26 14:30:57,692 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.util.HashMap.putMapEntries(HashMap.java:496)
+INFO  [Thread-1] 2025-05-26 14:30:57,696 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.util.HashMap.<init>(HashMap.java:485)
+INFO  [Thread-1] 2025-05-26 14:30:57,696 repast.simphony.batch.ssh.LocalSession - 	at immunity.EndosomeCopasiStep.timeSeriesLoadintoEndosome(EndosomeCopasiStep.java:50)
+INFO  [Thread-1] 2025-05-26 14:30:57,696 repast.simphony.batch.ssh.LocalSession - 	at immunity.EndosomeCopasiStep.antPresTimeSeriesLoad(EndosomeCopasiStep.java:24)
+INFO  [Thread-1] 2025-05-26 14:30:57,696 repast.simphony.batch.ssh.LocalSession - 	at immunity.Endosome.step(Endosome.java:224)
+INFO  [Thread-1] 2025-05-26 14:30:57,696 repast.simphony.batch.ssh.LocalSession - 	... 10 more
+INFO  [pool-3-thread-1] 2025-05-26 14:31:43,929 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1748280641715 for DONE:  yes
+INFO  [SwingWorker-pool-1-thread-3] 2025-05-26 14:31:43,931 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1,0064
+INFO  [SwingWorker-pool-1-thread-3] 2025-05-26 14:31:43,967 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\fniet\AppData\Local\Temp\simphony_model_1748280641715
+INFO  [SwingWorker-pool-1-thread-3] 2025-05-26 14:31:43,970 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/fniet/ws2/immunity/output
+INFO  [SwingWorker-pool-1-thread-3] 2025-05-26 14:31:43,972 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0,0007
+INFO  [SwingWorker-pool-1-thread-3] 2025-05-26 14:31:43,972 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1,0379
+INFO  [AWT-EventQueue-0] 2025-05-26 14:34:49,096 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-05-26 14:34:49,103 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:34:59,812 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\fniet\AppData\Local\Temp\fniet_localhost9447335191178868976.zip to 
+C:\Users\fniet\AppData\Local\Temp\simphony_model_1748280897913 ...
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:34:59,876 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:34:59,876 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0,0327
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:34:59,876 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\fniet\AppData\Local\Temp\simphony_model_1748280897913\fniet_localhost9447335191178868976.zip
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:35:00,300 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fniet/AppData/Local/Temp/simphony_model_1748280897913/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fniet/AppData/Local/Temp/simphony_model_1748280897913/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-2] 2025-05-26 14:35:14,692 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-2] 2025-05-26 14:35:14,856 repast.simphony.batch.ssh.LocalSession - mypath = C:/Users/fniet/ws2/immunity/
+INFO  [Thread-2] 2025-05-26 14:35:14,856 repast.simphony.batch.ssh.LocalSession - mypath out= C:/Users/fniet/ws2/immunity//output/2025-05-26-14-35-856/
+INFO  [Thread-2] 2025-05-26 14:35:14,962 repast.simphony.batch.ssh.LocalSession - Instantiation Once
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - Model statistics for model "Plasma Membrane".
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - Number of Compartments: 3
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - Compartments: 
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - Number of Metabolites: 7
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - Metabolites: 
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - protonEn
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - TfaEn
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - FeEn
+INFO  [Thread-2] 2025-05-26 14:35:15,254 repast.simphony.batch.ssh.LocalSession - TfEn
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - R-TfaEn
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - REn
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - R-TfEn
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - 	protonEn	3.98E-5	5.752349837808E26
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - 	R-TfaEn	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - 	TfaEn	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - 	FeEn	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - 	R-TfEn	0.0010129918939672732	3.672429252190123E25
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - 	REn	2.028013491457743E-6	7.352216848150074E22
+INFO  [Thread-2] 2025-05-26 14:35:15,261 repast.simphony.batch.ssh.LocalSession - 	TfEn	0.4166670050869291	6.022146681235532E30
+INFO  [Thread-2] 2025-05-26 14:35:15,262 repast.simphony.batch.ssh.LocalSession - Number of Reactions: 4
+INFO  [Thread-2] 2025-05-26 14:35:15,262 repast.simphony.batch.ssh.LocalSession - Reactions: 
+INFO  [Thread-2] 2025-05-26 14:35:15,262 repast.simphony.batch.ssh.LocalSession - 	FreeTfa
+INFO  [Thread-2] 2025-05-26 14:35:15,262 repast.simphony.batch.ssh.LocalSession - 	FreeFe
+INFO  [Thread-2] 2025-05-26 14:35:15,262 repast.simphony.batch.ssh.LocalSession - 	disTf
+INFO  [Thread-2] 2025-05-26 14:35:15,262 repast.simphony.batch.ssh.LocalSession - 	BindTf
+INFO  [Thread-2] 2025-05-26 14:35:15,286 repast.simphony.batch.ssh.LocalSession - Instantiation Once .//data//XP.cps
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - Model statistics for model "AntigenPresentation".
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - Number of Compartments: 3
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - Compartments: 
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - 	soluble4.8E9
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - 	membrane2400000.0
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - 	imaginario1.0
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - Number of Metabolites: 11
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - Metabolites: 
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - protonEn
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - protonCy
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - TfaEn
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - FeEn
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - FeCy
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - TfEn
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - R-TfaEn
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - REn
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - R-TfEn
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - RabD
+INFO  [Thread-2] 2025-05-26 14:35:15,327 repast.simphony.batch.ssh.LocalSession - RabA
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	FeCy	1.0	2.8906280592000005E30
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	protonEn	0.0013987000000000008	4.0431214664030426E27
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	R-TfaEn	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	protonCy	9.999999999999991E-5	2.8906280591999978E26
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	TfaEn	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	RabD	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	RabA	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	FeEn	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	R-TfEn	1.0	1.4453140296E27
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	REn	0.0	0.0
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	TfEn	1.0	2.8906280592000005E30
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - Number of Reactions: 7
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - Reactions: 
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	ProtonPumpRabD
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	ProtonPumpRabA
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	FreeTfa
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	FreeFe
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	FeTransport
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	ProtonLeak (forward)
+INFO  [Thread-2] 2025-05-26 14:35:15,330 repast.simphony.batch.ssh.LocalSession - 	ProtonLeak (backward)
+INFO  [pool-4-thread-1] 2025-05-26 14:36:00,301 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1748280897913 for DONE:  no
+INFO  [pool-4-thread-1] 2025-05-26 14:37:00,298 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1748280897913 for DONE:  yes
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:37:00,299 repast.simphony.batch.ssh.SessionsDriver - Run Time: 2,0071
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:37:00,316 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\fniet\AppData\Local\Temp\simphony_model_1748280897913
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:37:00,316 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/fniet/ws2/immunity/output
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:37:00,316 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0,0003
+INFO  [SwingWorker-pool-1-thread-4] 2025-05-26 14:37:00,316 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 2,0405
+INFO  [AWT-EventQueue-0] 2025-05-26 14:39:36,247 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-05-26 14:39:36,249 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:39:46,916 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\fniet\AppData\Local\Temp\fniet_localhost16441946696380062307.zip to 
+C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281185141 ...
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:39:46,970 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:39:46,970 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0,0305
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:39:46,970 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281185141\fniet_localhost16441946696380062307.zip
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:39:47,347 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-3] 2025-05-26 14:39:59,905 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-3] 2025-05-26 14:39:59,905 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fniet/AppData/Local/Temp/simphony_model_1748281185141/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-3] 2025-05-26 14:39:59,905 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-3] 2025-05-26 14:39:59,905 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-3] 2025-05-26 14:39:59,905 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-3] 2025-05-26 14:39:59,920 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-3] 2025-05-26 14:39:59,920 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fniet/AppData/Local/Temp/simphony_model_1748281185141/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-3] 2025-05-26 14:39:59,920 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-3] 2025-05-26 14:39:59,920 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-3] 2025-05-26 14:39:59,920 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-3] 2025-05-26 14:40:00,087 repast.simphony.batch.ssh.LocalSession - mypath = C:/Users/fniet/ws2/immunity/
+INFO  [Thread-3] 2025-05-26 14:40:00,087 repast.simphony.batch.ssh.LocalSession - mypath out= C:/Users/fniet/ws2/immunity//output/2025-05-26-14-40-087/
+INFO  [Thread-3] 2025-05-26 14:40:00,195 repast.simphony.batch.ssh.LocalSession - Instantiation Once endosome copasi .//data//XP.cps
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - Model statistics for model "AntigenPresentation".
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - Number of Compartments: 3
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - Compartments: 
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - 	soluble4.8E9
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - 	membrane2400000.0
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - 	imaginario1.0
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - Number of Metabolites: 11
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - Metabolites: 
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - protonEn
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - protonCy
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - TfaEn
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - FeEn
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - FeCy
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - TfEn
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - R-TfaEn
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - REn
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - R-TfEn
+INFO  [Thread-3] 2025-05-26 14:40:00,487 repast.simphony.batch.ssh.LocalSession - RabD
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - RabA
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	FeCy	1.0	2.8906280592000005E30
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	protonEn	0.0013987000000000008	4.0431214664030426E27
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	R-TfaEn	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	protonCy	9.999999999999991E-5	2.8906280591999978E26
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	TfaEn	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	RabD	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	RabA	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	FeEn	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	R-TfEn	1.0	1.4453140296E27
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	REn	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	TfEn	1.0	2.8906280592000005E30
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - Number of Reactions: 7
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - Reactions: 
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	ProtonPumpRabD
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	ProtonPumpRabA
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	FreeTfa
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	FreeFe
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	FeTransport
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	ProtonLeak (forward)
+INFO  [Thread-3] 2025-05-26 14:40:00,493 repast.simphony.batch.ssh.LocalSession - 	ProtonLeak (backward)
+INFO  [Thread-3] 2025-05-26 14:40:03,007 repast.simphony.batch.ssh.LocalSession - Instantiation Once pm copasi
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - Model statistics for model "Plasma Membrane".
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - Number of Compartments: 3
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - Compartments: 
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - Number of Metabolites: 7
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - Metabolites: 
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - protonEn
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - TfaEn
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - FeEn
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - TfEn
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - R-TfaEn
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - REn
+INFO  [Thread-3] 2025-05-26 14:40:03,044 repast.simphony.batch.ssh.LocalSession - R-TfEn
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	protonEn	3.98E-5	5.752349837808E26
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	R-TfaEn	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	TfaEn	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	FeEn	0.0	0.0
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	R-TfEn	0.0010129918939672732	3.672429252190123E25
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	REn	2.028013491457743E-6	7.352216848150074E22
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	TfEn	0.4166670050869291	6.022146681235532E30
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - Number of Reactions: 4
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - Reactions: 
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	FreeTfa
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	FreeFe
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	disTf
+INFO  [Thread-3] 2025-05-26 14:40:03,045 repast.simphony.batch.ssh.LocalSession - 	BindTf
+INFO  [pool-5-thread-1] 2025-05-26 14:40:47,346 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281185141 for DONE:  no
+INFO  [pool-5-thread-1] 2025-05-26 14:41:47,349 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281185141 for DONE:  yes
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:41:47,350 repast.simphony.batch.ssh.SessionsDriver - Run Time: 2,0063
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:41:47,369 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281185141
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:41:47,369 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/fniet/ws2/immunity/output
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:41:47,369 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0,0003
+INFO  [SwingWorker-pool-1-thread-5] 2025-05-26 14:41:47,369 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 2,0375
+INFO  [AWT-EventQueue-0] 2025-05-26 14:42:23,303 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-05-26 14:42:23,305 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:42:33,081 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\fniet\AppData\Local\Temp\fniet_localhost13861951443310912192.zip to 
+C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281351340 ...
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:42:33,126 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:42:33,126 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0,0298
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:42:33,126 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281351340\fniet_localhost13861951443310912192.zip
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:42:33,504 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fniet/AppData/Local/Temp/simphony_model_1748281351340/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fniet/AppData/Local/Temp/simphony_model_1748281351340/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-4] 2025-05-26 14:42:47,909 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-4] 2025-05-26 14:42:48,082 repast.simphony.batch.ssh.LocalSession - mypath = C:/Users/fniet/ws2/immunity/
+INFO  [Thread-4] 2025-05-26 14:42:48,082 repast.simphony.batch.ssh.LocalSession - mypath out= C:/Users/fniet/ws2/immunity//output/2025-05-26-14-42-081/
+INFO  [Thread-4] 2025-05-26 14:42:48,605 repast.simphony.batch.ssh.LocalSession - Instantiation Once endosome copasi .//data//XP.cps
+INFO  [Thread-4] 2025-05-26 14:42:48,800 repast.simphony.batch.ssh.LocalSession - Model statistics for model "AntigenPresentation".
+INFO  [Thread-4] 2025-05-26 14:42:48,800 repast.simphony.batch.ssh.LocalSession - Number of Compartments: 3
+INFO  [Thread-4] 2025-05-26 14:42:48,800 repast.simphony.batch.ssh.LocalSession - Compartments: 
+INFO  [Thread-4] 2025-05-26 14:42:48,800 repast.simphony.batch.ssh.LocalSession - 	soluble4.8E9
+INFO  [Thread-4] 2025-05-26 14:42:48,800 repast.simphony.batch.ssh.LocalSession - 	membrane2400000.0
+INFO  [Thread-4] 2025-05-26 14:42:48,800 repast.simphony.batch.ssh.LocalSession - 	imaginario1.0
+INFO  [Thread-4] 2025-05-26 14:42:48,800 repast.simphony.batch.ssh.LocalSession - Number of Metabolites: 11
+INFO  [Thread-4] 2025-05-26 14:42:48,800 repast.simphony.batch.ssh.LocalSession - Metabolites: 
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - protonEn
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - protonCy
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - TfaEn
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - FeEn
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - FeCy
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - TfEn
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - R-TfaEn
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - REn
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - R-TfEn
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - RabD
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - RabA
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	FeCy	1.0	2.8906280592000005E30
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	protonEn	0.0013987000000000008	4.0431214664030426E27
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	R-TfaEn	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	protonCy	9.999999999999991E-5	2.8906280591999978E26
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	TfaEn	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	RabD	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	RabA	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	FeEn	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	R-TfEn	1.0	1.4453140296E27
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	REn	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	TfEn	1.0	2.8906280592000005E30
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - Number of Reactions: 7
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - Reactions: 
+INFO  [Thread-4] 2025-05-26 14:42:48,803 repast.simphony.batch.ssh.LocalSession - 	ProtonPumpRabD
+INFO  [Thread-4] 2025-05-26 14:42:48,805 repast.simphony.batch.ssh.LocalSession - 	ProtonPumpRabA
+INFO  [Thread-4] 2025-05-26 14:42:48,805 repast.simphony.batch.ssh.LocalSession - 	FreeTfa
+INFO  [Thread-4] 2025-05-26 14:42:48,805 repast.simphony.batch.ssh.LocalSession - 	FreeFe
+INFO  [Thread-4] 2025-05-26 14:42:48,805 repast.simphony.batch.ssh.LocalSession - 	FeTransport
+INFO  [Thread-4] 2025-05-26 14:42:48,805 repast.simphony.batch.ssh.LocalSession - 	ProtonLeak (forward)
+INFO  [Thread-4] 2025-05-26 14:42:48,805 repast.simphony.batch.ssh.LocalSession - 	ProtonLeak (backward)
+INFO  [Thread-4] 2025-05-26 14:42:51,671 repast.simphony.batch.ssh.LocalSession - Instantiation Once pm copasi .//data//XP-PM.cps
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - Model statistics for model "Plasma Membrane".
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - Number of Compartments: 3
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - Compartments: 
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - Number of Metabolites: 7
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - Metabolites: 
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - protonEn
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - TfaEn
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - FeEn
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - TfEn
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - R-TfaEn
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - REn
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - R-TfEn
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	protonEn	3.98E-5	5.752349837808E26
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	R-TfaEn	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	TfaEn	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	FeEn	0.0	0.0
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	R-TfEn	0.0010129918939672732	3.672429252190123E25
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	REn	2.028013491457743E-6	7.352216848150074E22
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	TfEn	0.4166670050869291	6.022146681235532E30
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - Number of Reactions: 4
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - Reactions: 
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	FreeTfa
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	FreeFe
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	disTf
+INFO  [Thread-4] 2025-05-26 14:42:51,705 repast.simphony.batch.ssh.LocalSession - 	BindTf
+INFO  [pool-6-thread-1] 2025-05-26 14:43:33,516 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281351340 for DONE:  no
+INFO  [pool-6-thread-1] 2025-05-26 14:44:33,523 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281351340 for DONE:  yes
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:44:33,526 repast.simphony.batch.ssh.SessionsDriver - Run Time: 2,0066
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:44:33,550 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\fniet\AppData\Local\Temp\simphony_model_1748281351340
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:44:33,550 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/fniet/ws2/immunity/output
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:44:33,550 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0,0004
+INFO  [SwingWorker-pool-1-thread-6] 2025-05-26 14:44:33,550 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 2,0372
+FATAL [Thread-2] 2025-06-02 12:51:26,711 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at immunity.PlasmaMembrane$$FastClassByCGLIB$$4ec27737.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.NoClassDefFoundError: org/COPASI/CCopasiRootContainer
+	at immunity.PlasmaMembraneCopasi.<init>(PlasmaMembraneCopasi.java:56)
+	at immunity.PlasmaMembraneCopasi.getInstance(PlasmaMembraneCopasi.java:42)
+	at immunity.PlasmaMembraneCopasiStep.callReceptorDynamics(PlasmaMembraneCopasiStep.java:111)
+	at immunity.PlasmaMembraneCopasiStep.antPresTimeSeriesLoad(PlasmaMembraneCopasiStep.java:24)
+	at immunity.PlasmaMembrane.step(PlasmaMembrane.java:94)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: org.COPASI.CCopasiRootContainer
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 15 more
+FATAL [Thread-2] 2025-06-02 12:55:39,031 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at immunity.Endosome$$FastClassByCGLIB$$3ff3446a.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.NoClassDefFoundError: org/COPASI/CCopasiRootContainer
+	at immunity.EndosomeCopasi.<init>(EndosomeCopasi.java:56)
+	at immunity.EndosomeCopasi.getInstance(EndosomeCopasi.java:42)
+	at immunity.EndosomeCopasiStep.callLipidPresentation(EndosomeCopasiStep.java:122)
+	at immunity.EndosomeCopasiStep.antPresTimeSeriesLoad(EndosomeCopasiStep.java:23)
+	at immunity.Endosome.step(Endosome.java:224)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: org.COPASI.CCopasiRootContainer
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 15 more
+ERROR [AWT-EventQueue-0] 2025-06-02 14:45:57,810 repast.simphony.engine.watcher.WatcheeInstrumentor - Error while instrumenting watchee class
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.zerror(ZipFile.java:1567)
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1462)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1469)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1274)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1237)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:844)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:247)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:177)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:319)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:258)
+	at repast.simphony.engine.watcher.WatcheeDataFinder.findClasses(WatcheeDataFinder.java:309)
+	at repast.simphony.engine.watcher.WatcheeDataFinder.run(WatcheeDataFinder.java:159)
+	at repast.simphony.engine.watcher.WatcheeInstrumentor.instrument(WatcheeInstrumentor.java:83)
+	at repast.simphony.scenario.ScenarioWatcheeInitializer.initWatchees(ScenarioWatcheeInitializer.java:73)
+	at repast.simphony.scenario.ScenarioWatcheeInitializer.run(ScenarioWatcheeInitializer.java:34)
+	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:120)
+	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
+	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
+	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
+	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
+	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
+	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
+	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
+	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+FATAL [Thread-2] 2025-06-02 14:46:22,077 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at immunity.PlasmaMembrane$$FastClassByCGLIB$$4ec27737.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.NoClassDefFoundError: org/COPASI/CCopasiContainer
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at immunity.PlasmaMembraneCopasi.<init>(PlasmaMembraneCopasi.java:56)
+	at immunity.PlasmaMembraneCopasi.getInstance(PlasmaMembraneCopasi.java:42)
+	at immunity.PlasmaMembraneCopasiStep.callReceptorDynamics(PlasmaMembraneCopasiStep.java:111)
+	at immunity.PlasmaMembraneCopasiStep.antPresTimeSeriesLoad(PlasmaMembraneCopasiStep.java:24)
+	at immunity.PlasmaMembrane.step(PlasmaMembrane.java:94)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: org.COPASI.CCopasiContainer
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 26 more
+INFO  [AWT-EventQueue-0] 2025-06-02 14:57:59,504 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-06-02 14:57:59,752 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [AWT-EventQueue-0] 2025-06-04 14:18:18,074 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-06-04 14:18:18,339 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [AWT-EventQueue-0] 2025-06-04 17:05:37,587 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-06-04 17:05:37,870 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [AWT-EventQueue-0] 2025-06-05 13:16:16,794 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-06-05 13:16:17,114 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [AWT-EventQueue-0] 2025-06-05 13:20:12,531 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-06-05 13:20:12,569 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [AWT-EventQueue-0] 2025-06-12 15:15:51,365 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\fniet\ws2\immunity\output\config.props
+INFO  [AWT-EventQueue-0] 2025-06-12 15:15:51,797 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\fniet\ws2\immunity\batch\batch_params.xml to
+	C:\Users\fniet\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:16:25,320 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\fniet\AppData\Local\Temp\fniet_localhost1296347144979603926.zip to 
+C:\Users\fniet\AppData\Local\Temp\simphony_model_1749752182912 ...
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:16:25,476 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:16:25,478 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0,0427
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:16:25,478 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\fniet\AppData\Local\Temp\simphony_model_1749752182912\fniet_localhost1296347144979603926.zip
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:16:26,105 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-0] 2025-06-12 15:16:41,740 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-0] 2025-06-12 15:16:41,744 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fniet/AppData/Local/Temp/simphony_model_1749752182912/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-0] 2025-06-12 15:16:41,744 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-0] 2025-06-12 15:16:41,744 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-0] 2025-06-12 15:16:41,744 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-0] 2025-06-12 15:16:41,783 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-0] 2025-06-12 15:16:41,783 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fniet/AppData/Local/Temp/simphony_model_1749752182912/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-0] 2025-06-12 15:16:41,783 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-0] 2025-06-12 15:16:41,783 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-0] 2025-06-12 15:16:41,783 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-0] 2025-06-12 15:16:41,955 repast.simphony.batch.ssh.LocalSession - mypath = C:/Users/fniet/ws2/immunity/
+INFO  [Thread-0] 2025-06-12 15:16:41,955 repast.simphony.batch.ssh.LocalSession - mypath out= C:/Users/fniet/ws2/immunity//output/2025-06-12-15-16-955/
+INFO  [Thread-0] 2025-06-12 15:16:42,024 repast.simphony.batch.ssh.LocalSession - Break tick: 2300.0
+INFO  [Thread-0] 2025-06-12 15:16:42,081 repast.simphony.batch.ssh.LocalSession - Instantiation Once pm copasi .//data//XP-PM.cps
+INFO  [Thread-0] 2025-06-12 15:16:42,447 repast.simphony.batch.ssh.LocalSession - Model statistics for model "Plasma Membrane".
+INFO  [Thread-0] 2025-06-12 15:16:42,447 repast.simphony.batch.ssh.LocalSession - Number of Compartments: 3
+INFO  [Thread-0] 2025-06-12 15:16:42,447 repast.simphony.batch.ssh.LocalSession - Compartments: 
+INFO  [Thread-0] 2025-06-12 15:16:42,450 repast.simphony.batch.ssh.LocalSession - Number of Metabolites: 7
+INFO  [Thread-0] 2025-06-12 15:16:42,450 repast.simphony.batch.ssh.LocalSession - Metabolites: 
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - protonEn
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - TfaEn
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - FeEn
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - TfEn
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - R-TfaEn
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - REn
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - R-TfEn
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - 	protonEn	3.98E-5	5.752349837808E26
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - 	R-TfaEn	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - 	TfaEn	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - 	FeEn	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - 	R-TfEn	0.0010129918939672732	3.672429252190123E25
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - 	REn	2.028013491457743E-6	7.352216848150074E22
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - 	TfEn	0.4166670050869291	6.022146681235532E30
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - Number of Reactions: 4
+INFO  [Thread-0] 2025-06-12 15:16:42,452 repast.simphony.batch.ssh.LocalSession - Reactions: 
+INFO  [Thread-0] 2025-06-12 15:16:42,455 repast.simphony.batch.ssh.LocalSession - 	FreeTfa
+INFO  [Thread-0] 2025-06-12 15:16:42,455 repast.simphony.batch.ssh.LocalSession - 	FreeFe
+INFO  [Thread-0] 2025-06-12 15:16:42,455 repast.simphony.batch.ssh.LocalSession - 	disTf
+INFO  [Thread-0] 2025-06-12 15:16:42,455 repast.simphony.batch.ssh.LocalSession - 	BindTf
+INFO  [Thread-0] 2025-06-12 15:16:42,675 repast.simphony.batch.ssh.LocalSession - Instantiation Once endosome copasi .//data//XP.cps
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - Model statistics for model "AntigenPresentation".
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - Number of Compartments: 3
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - Compartments: 
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	soluble4.8E9
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	membrane2400000.0
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	imaginario1.0
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - Number of Metabolites: 11
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - Metabolites: 
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - protonEn
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - protonCy
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - TfaEn
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - FeEn
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - FeCy
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - TfEn
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - R-TfaEn
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - REn
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - R-TfEn
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - RabD
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - RabA
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	FeCy	1.0	2.8906280592000005E30
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	protonEn	0.0013987000000000008	4.0431214664030426E27
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	R-TfaEn	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	protonCy	9.999999999999991E-5	2.8906280591999978E26
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	TfaEn	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	RabD	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	RabA	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	FeEn	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	R-TfEn	1.0	1.4453140296E27
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	REn	0.0	0.0
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	TfEn	1.0	2.8906280592000005E30
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - Number of Reactions: 7
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - Reactions: 
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	ProtonPumpRabD
+INFO  [Thread-0] 2025-06-12 15:16:42,714 repast.simphony.batch.ssh.LocalSession - 	ProtonPumpRabA
+INFO  [Thread-0] 2025-06-12 15:16:42,727 repast.simphony.batch.ssh.LocalSession - 	FreeTfa
+INFO  [Thread-0] 2025-06-12 15:16:42,727 repast.simphony.batch.ssh.LocalSession - 	FreeFe
+INFO  [Thread-0] 2025-06-12 15:16:42,727 repast.simphony.batch.ssh.LocalSession - 	FeTransport
+INFO  [Thread-0] 2025-06-12 15:16:42,727 repast.simphony.batch.ssh.LocalSession - 	ProtonLeak (forward)
+INFO  [Thread-0] 2025-06-12 15:16:42,727 repast.simphony.batch.ssh.LocalSession - 	ProtonLeak (backward)
+INFO  [Thread-0] 2025-06-12 15:17:18,548 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:18,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:18,568 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:21,067 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:21,067 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:21,067 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:21,067 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:21,067 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:21,067 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:21,069 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:21,086 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:23,513 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:23,518 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:23,534 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:23,534 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:23,534 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:23,538 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:25,692 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:25,692 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:25,692 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:25,692 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:25,692 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:25,692 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:25,693 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:25,694 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [pool-2-thread-1] 2025-06-12 15:17:26,126 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1749752182912 for DONE:  no
+INFO  [Thread-0] 2025-06-12 15:17:28,532 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:28,532 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:28,532 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:28,532 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:28,534 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:28,534 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:28,534 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:28,535 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:28,536 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:28,536 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:28,536 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:28,536 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:28,536 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:28,536 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:28,538 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:28,546 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:28,546 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:28,546 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:28,546 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:28,549 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:28,550 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:28,550 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:28,553 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:28,553 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:28,553 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:28,553 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:28,553 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:28,553 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:28,553 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:32,741 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:32,741 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:32,741 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:32,741 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:32,741 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:32,744 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:32,762 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:35,355 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:35,355 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:35,355 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:35,355 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:35,357 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:35,359 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:37,906 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:37,908 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:37,913 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:37,913 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:37,913 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:37,913 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:37,914 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:41,030 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:41,030 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:41,031 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:41,038 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:43,746 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:43,746 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:43,746 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:43,746 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:43,746 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:43,746 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:43,746 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:43,747 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:43,749 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:43,752 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:43,752 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:43,752 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:46,341 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsMarker.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:46,341 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:46,341 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:46,341 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:46,341 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:46,341 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.printEndosome(Results.java:548)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.contentDistribution(Results.java:468)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:172)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:46,343 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - java.io.FileNotFoundException: C:\Users\fniet\ws2\immunity\output\2025-06-12-15-16-955\ResultsIntrTransp3.csv (El sistema no puede encontrar la ruta especificada)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open0(Native Method)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.writeToCsv(Results.java:222)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results.step(Results.java:187)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at immunity.Results$$FastClassByCGLIB$$696d0d34.invoke(<generated>)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-0] 2025-06-12 15:17:46,345 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [pool-2-thread-1] 2025-06-12 15:18:26,127 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\fniet\AppData\Local\Temp\simphony_model_1749752182912 for DONE:  yes
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:18:26,145 repast.simphony.batch.ssh.SessionsDriver - Run Time: 2,0111
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:18:26,205 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\fniet\AppData\Local\Temp\simphony_model_1749752182912
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:18:26,224 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/fniet/ws2/immunity/output
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:18:26,224 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0,0013
+INFO  [SwingWorker-pool-1-thread-1] 2025-06-12 15:18:26,226 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 2,0555

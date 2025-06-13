@@ -12,7 +12,7 @@
 	<classpathentry kind="con" path="REPAST_SIMPHONY_SUPPORT"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="C:/Users/fniet/OneDrive/Documentos/GitHub/endomembraneSystemTf/immunity/lib/com.springsource.org.codehaus.jackson-1.4.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/fniet/OneDrive/Documentos/GitHub/endomembraneSystemTf/immunity/lib/copasi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fniet/OneDrive/Documentos/GitHub/endomembraneSystemTf/immunity/lib/copasi.jar" sourcepath="lib/copasi.jar"/>
 	<classpathentry kind="lib" path="C:/Users/fniet/OneDrive/Documentos/GitHub/endomembraneSystemTf/immunity/lib/copasi-gui.jar"/>
 	<classpathentry kind="lib" path="C:/Users/fniet/OneDrive/Documentos/GitHub/endomembraneSystemTf/immunity/lib/Xstream/xstream-1.4.10/lib/xstream-1.4.10.jar"/>
 	<classpathentry kind="lib" path="C:/Users/fniet/OneDrive/Documentos/GitHub/endomembraneSystemTf/immunity/lib/Xstream/xstream-1.4.10/lib/xstream-benchmark-1.4.10.jar"/>

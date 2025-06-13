@@ -89,7 +89,7 @@ public class Results {
 	{
 	File source = new File(LocalPath.getInstance().getPathInputIT()+inputFile);
 	File dest = new File(LocalPath.getInstance().getMyPathOut()+inputFile);
-	System.out.println(source.toString() + dest.toString());
+	//System.out.println(source.toString() + dest.toString());
 	    try {
 			FileUtils.copyFile(source, dest);
 		} catch (IOException e) {
@@ -101,7 +101,7 @@ public class Results {
 	{
 	File source = new File(LocalPath.getInstance().getPathInputIT()+"inputFrozenEndosomes.csv");
 	File dest = new File(LocalPath.getInstance().getMyPathOut()+"inputFrozenEndosomes.csv");
-	System.out.println(source.toString() + dest.toString());
+	//System.out.println(source.toString() + dest.toString());
 	    try {
 			FileUtils.copyFile(source, dest);
 		} catch (IOException e) {

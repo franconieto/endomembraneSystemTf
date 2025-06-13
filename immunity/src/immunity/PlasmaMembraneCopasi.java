@@ -25,6 +25,7 @@ import org.COPASI.CTrajectoryMethod;
 import org.COPASI.CTrajectoryProblem;
 import org.COPASI.CTrajectoryTask;
 import org.COPASI.ReportItemVector;
+import org.COPASI.COPASIJNI;
 
 public class PlasmaMembraneCopasi {
 	private static PlasmaMembraneCopasi instance = null;
@@ -46,7 +47,7 @@ public class PlasmaMembraneCopasi {
 	
 	protected PlasmaMembraneCopasi() {
 
-		System.out.println("Instantiation Once");
+		System.out.println("Instantiation Once pm copasi " + ModelProperties.getInstance().getCopasiFiles().get("plasmaMembraneCopasi"));
 		
 		// to defeat instantiation
 		assert CCopasiRootContainer.getRoot() != null;
