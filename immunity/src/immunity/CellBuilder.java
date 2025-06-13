@@ -328,11 +328,21 @@ public class CellBuilder implements ContextBuilder<Object> { // contextbuilder e
 //					}
 			}
 		}
-
 		
-		if (RunEnvironment.getInstance().isBatch()) {
-			RunEnvironment.getInstance().endAt(60100);
+		try {
+			double end = modelProperties.getCellK().get("breakTick");
+			System.out.println("Break tick: "+end);
+			if (RunEnvironment.getInstance().isBatch()) {
+				RunEnvironment.getInstance().endAt(end);
+			}
+		} catch (NullPointerException e) {
+			System.out.println("No beakTick");
+			e.printStackTrace();
 		}
+		
+		
+		
+		
 
 		collection = context.getObjects(Endosome.class);// se guardan los objetos de la clase endosoma, supongo que seran endosomas
 		collectionER = context.getObjects(EndoplasmicReticulum.class);

@@ -89,7 +89,7 @@ public class Results {
 	{
 	File source = new File(LocalPath.getInstance().getPathInputIT()+inputFile);
 	File dest = new File(LocalPath.getInstance().getMyPathOut()+inputFile);
-	System.out.println(source.toString() + dest.toString());
+	//System.out.println(source.toString() + dest.toString());
 	    try {
 			FileUtils.copyFile(source, dest);
 		} catch (IOException e) {
@@ -101,7 +101,7 @@ public class Results {
 	{
 	File source = new File(LocalPath.getInstance().getPathInputIT()+"inputFrozenEndosomes.csv");
 	File dest = new File(LocalPath.getInstance().getMyPathOut()+"inputFrozenEndosomes.csv");
-	System.out.println(source.toString() + dest.toString());
+	//System.out.println(source.toString() + dest.toString());
 	    try {
 			FileUtils.copyFile(source, dest);
 		} catch (IOException e) {
@@ -352,7 +352,7 @@ public class Results {
 		HashMap<String, Double> solubleSecretion = EndoplasmicReticulum.getInstance().getSolubleRecycle();
 		HashMap<String, Double> membraneSecretion = EndoplasmicReticulum.getInstance().getMembraneRecycle();
 		HashMap<String, Double> solubleCell = Cell.getInstance().getSolubleCell();
-		System.out.println(solubleCell + " VEAMOS ANTES Y DESPUES" + Cell.getInstance().getSolubleCell());
+		//System.out.println(solubleCell + " VEAMOS ANTES Y DESPUES" + Cell.getInstance().getSolubleCell());
 		for (String sol : solubleRecycle.keySet()) {
 //			System.out.println(" soluble "+ sol);
 			double value = solubleRecycle.get(sol);

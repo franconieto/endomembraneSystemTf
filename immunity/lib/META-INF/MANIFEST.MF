@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Vendor: "The COPASI Team"
+Implementation-Title: "COPASI Java API"
+Implementation-Version: "Build 35"
+Name: org.COPASI
+Created-By: 1.7.0_75 (Oracle Corporation)
+

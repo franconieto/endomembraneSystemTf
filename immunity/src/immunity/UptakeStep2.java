@@ -64,7 +64,7 @@ public class UptakeStep2 {
 		double initialAreaPM = PlasmaMembrane.getInstance().getInitialPlasmaMembraneArea();
 
 		while(areaPM > initialAreaPM) {
-		System.out.println(" 	NEW UPTAKE PM   " + areaPM + "    "+initialAreaPM);
+		//System.out.println(" 	NEW UPTAKE PM   " + areaPM + "    "+initialAreaPM);
 		newUptake(cell,"RabA");
 		if (Math.random()< 0) {
 			break; // to prevent too many continuous uptakes
@@ -76,7 +76,7 @@ public class UptakeStep2 {
 		double areaER = EndoplasmicReticulum.getInstance().getEndoplasmicReticulumArea();
 		double initialAreaER = EndoplasmicReticulum.getInstance().getInitialendoplasmicReticulumArea();
 		while (areaER > initialAreaER) {
-			System.out.println(" 	NEW UPTAKE ER   " + areaER + "    "+initialAreaER);
+			//System.out.println(" 	NEW UPTAKE ER   " + areaER + "    "+initialAreaER);
 		
 		newSecretion(cell,"RabI");
 		if (Math.random()< 0.5) {
@@ -172,7 +172,7 @@ public class UptakeStep2 {
 		
 		HashMap<String, Double> membraneContent = new HashMap<String,Double>();
 		Set<String> membraneMet = new HashSet<String>(ModelProperties.getInstance().getMembraneMet());
-		System.out.println(EndoplasmicReticulum.getInstance().getMembraneRecycle() + "   secretion 1111  ");
+		//System.out.println(EndoplasmicReticulum.getInstance().getMembraneRecycle() + "   secretion 1111  ");
 
 		for (String mem : membraneMet){
 //			double valueInER =0d;
@@ -287,7 +287,7 @@ public class UptakeStep2 {
 		int tick = (int) RunEnvironment.getInstance().getCurrentSchedule().getTickCount();
 //		if (tick == 1) uptakeArea = 0d;
 		uptakeArea = uptakeArea + 4d/3d*PI*a*a*c;// should area
-		System.out.println(uptakeArea + " TOTAL UPTAKE UPTAKE "+ plasmaMembrane + "  "+ area + " " + tick);
+		//System.out.println(uptakeArea + " TOTAL UPTAKE UPTAKE "+ plasmaMembrane + "  "+ area + " " + tick);
 		PlasmaMembrane.getInstance().setPlasmaMembraneArea(plasmaMembrane);
 		
 		double volume = 4d/3d*PI*a*a*c;

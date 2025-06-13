@@ -9,6 +9,7 @@ import java.util.Collections;
 import org.COPASI.CModel;
 import org.COPASI.CTimeSeries;
 import org.apache.commons.lang3.StringUtils;
+import org.COPASI.COPASIJNI;
 
 import repast.simphony.engine.environment.RunEnvironment;
 

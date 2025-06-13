@@ -32,9 +32,11 @@ public class ModelProperties {
 		
 //		PARA BATCH USAR ESTO.  DE ESTE MODO SE PUEDEN BARRER VARIOS INPUTFILE CON DIFERENTES PROPIEDADES
 		Parameters parm = RunEnvironment.getInstance().getParameters();
+		
 		String inputFile =(String) parm.getValue("inputFile");
 		File file = new File (".//data//"+inputFile);
-
+		
+		
 		//		"inputIntrTransp3.csv"));
 		// PARA BATCH MODE.  LEE DE UN FOLDER DATA RELATIVO QUE SE GENERA AL CORRER EN BATCH 
 //				el folder se llama data y allí hay que meter todo lo que se lea, como el inputIntrTransp3.csv y los copasi que
@@ -229,7 +231,7 @@ public class ModelProperties {
 			case "initERProperties": {				
 				for (int i = 1; i < b.length; i = i + 2) {
 				modelProperties.getInitERProperties().put(b[i], Double.parseDouble(b[i+1]));
-				System.out.println("QUE ES LO QUE NO ANDA!!!!!!!!!!! " + modelProperties.getInitERProperties());
+				//System.out.println("QUE ES LO QUE NO ANDA!!!!!!!!!!! " + modelProperties.getInitERProperties());
 				}	
 				break;
 			}
@@ -432,7 +434,7 @@ public class ModelProperties {
 					break;
 				}
 				default: {
-					System.out.println("no a valid entry");
+					//System.out.println("no a valid entry");
 				}
 				}
 				break;
@@ -447,7 +449,7 @@ public class ModelProperties {
 		}
 
 			default: {
-				System.out.println("no a valid entry");
+				//System.out.println("no a valid entry");
 			}
 			}
 
@@ -519,7 +521,7 @@ public class ModelProperties {
 						break;
 					}
 					default: {
-						System.out.println("no a valid entry");
+						//System.out.println("no a valid entry");
 					}
 					}
 					break;
@@ -527,7 +529,7 @@ public class ModelProperties {
 
 
 				default: {
-					System.out.println("no a valid entry");
+					//System.out.println("no a valid entry");
 				}
 
 				}
