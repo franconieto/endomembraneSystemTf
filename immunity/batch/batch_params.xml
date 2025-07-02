@@ -1,1 +1,1 @@
-<?xml version="1.0" ?><sweep runs="1"><parameter name="repeat" type="constant" constant_type="int" value="2"></parameter><parameter name="inputFile" type="list" value_type="java.lang.String" values="InputIntrTransp3.csv"></parameter></sweep>
+<?xml version="1.0" ?><sweep runs="1"><parameter name="repeat" type="constant" constant_type="int" value="1"></parameter><parameter name="inputFile" type="list" value_type="java.lang.String" values="InputIntrTransp3.csv  InputIntrTransp3.csv InputIntrTransp3tropism.csv InputIntrTransp3tropism.csv"></parameter></sweep>

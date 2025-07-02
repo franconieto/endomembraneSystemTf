@@ -1,8 +1,8 @@
 tick 120001.0,,,,,,,,,,,,,,,,,,,
-endosome0Y,initOrgProp,area,208941.0866,volume,8829842.045,xcoor,46.29192517,ycoor,1.06682087,,,,,,,,,,
-endosome0Y,initRabContent,RabC,4763.373381,RabD,646.3839985,RabA,135863.3038,RabB,67668.02542,,,,,,,,,,
+endosome0Y,initOrgProp,area,7.1E+6,volume,5E+8,xcoor,20,ycoor,20,,,,,,,,,,
+endosome0Y,initRabContent,RabA,7.1E+6,,,,,,,,,,
 endosome0Y,initMembraneContent,exCxEn,0,R-TfaEn,0,oMHCIEn,0,membraneMarker,0,cMHCIEn,0,R-TfEn,0,pepMHCIEn,0,REn,13.64259759,imCxEn,0
-endosome0Y,initSolubleContent,ovaEn,0,protonEn,637.446231,TfaEn,0,solubleMarker,0,mvb,307,FeEn,0,TfEn,0,pepEn,0,,
+endosome0Y,initSolubleContent,ovaEn,0,protonEn,637.446231,TfaEn,0,solubleMarker,1,mvb,307,FeEn,0,TfEn,0,pepEn,0,,,
 endosome1j,initOrgProp,area,7539.822369,volume,50265.48246,xcoor,22.44504096,ycoor,19.03038377,,,,,,,,,,
 endosome1j,initRabContent,RabG,1206.371579,RabH,1507.964474,RabE,3860.389053,RabF,965.0972632,,,,,,,,,,
 endosome1j,initMembraneContent,exCxEn,0,R-TfaEn,0,oMHCIEn,0,membraneMarker,0,cMHCIEn,0,R-TfEn,0,pepMHCIEn,0,imCxEn,0,,
@@ -8632,7 +8632,7 @@ endosome2157D,initRabContent,RabA,22619.46711,,,,,,,,,,,,,,,,
 endosome2157D,initMembraneContent,exCxEn,0,R-TfaEn,0,oMHCIEn,0,membraneMarker,0,cMHCIEn,0,R-TfEn,0,pepMHCIEn,0,REn,10.16124345,imCxEn,0
 endosome2157D,initSolubleContent,ovaEn,0,protonEn,8.002264807,TfaEn,0,solubleMarker,0,mvb,0,FeEn,0,TfEn,0,pepEn,0,,
 plasmaMembrane,initOrgProp,area,6.10E+07,volume,2.40E+30,,,,,,,,,,,,,,
-plasmaMembrane,initMembraneContent,exCxEn,0,R-TfaEn,0,oMHCIEn,0,membraneMarker,1,cMHCIEn,0,R-TfEn,2051.674477,pepMHCIEn,0,REn,0,imCxEn,0
+plasmaMembrane,initMembraneContent,exCxEn,0,R-TfaEn,0,oMHCIEn,0,membraneMarker,0,cMHCIEn,0,R-TfEn,2051.674477,pepMHCIEn,0,REn,0,imCxEn,0
 plasmaMembrane,initSolubleContent,ovaEn,0,protonEn,767138.7014,TfaEn,0,solubleMarker,0,mvb,10717.88217,FeEn,0,TfEn,0,pepEn,0,,
 EReticulum,initOrgProp,area,6.00E+07,volume,2.40E+10,,,,,,,,,,,,,,
 EReticulum,initMembraneContent,exCxEn,0,R-TfaEn,0,oMHCIEn,0,membraneMarker,0,cMHCIEn,0,R-TfEn,0,pepMHCIEn,0,REn,17.38473071,imCxEn,0
